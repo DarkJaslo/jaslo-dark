@@ -1,0 +1,21 @@
+{
+  "name": "jaslo-dark",
+  "displayName": "Jaslo Dark",
+  "description": "The Jaslo Dark Theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Jaslo Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Jaslo Dark-color-theme.json"
+      }
+    ]
+  }
+}

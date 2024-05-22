@@ -1,0 +1,240 @@
+{
+	"name": "Jaslo Dark",
+	"colors": {
+		"editor.background": "#242424",
+		"editor.foreground": "#eeffff",
+		"activityBarBadge.background": "#007acc",
+		"sideBarTitle.foreground": "#bbbbbb"
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#728445"
+			}
+		},
+		{
+			"name": "Control Keyword",
+			"scope":[
+				"keyword.control"
+			],
+			"settings": {
+				"foreground": "#d10f93",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Operator Keyword",
+			"scope":[
+				"keyword.operator",
+				"punctuation.separator.delimiter.comma.cpp"
+			],
+			"settings": {
+				"foreground": "#9960b6",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Operator Keyword",
+			"scope":[
+				"keyword.operator.arithmetic.cpp"
+			],
+			"settings": {
+				"foreground": "#741545",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope":[
+				"variable",
+				"variable.other.property"
+			],
+			"settings": {
+				"foreground": "#98c4f2",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "String",
+			"scope":[
+				"string.quoted.double"
+			],
+			"settings": {
+				"foreground": "#ffee00",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"name": "True&False",
+			"scope":[
+				"constant.language.false",
+				"constant.language.true"
+			],
+			"settings": {
+				"foreground": "#ffee00",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Semicolon",
+			"scope":[
+				"punctuation.terminator"
+			],
+			"settings": {
+				"foreground": "#3a22d5",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Basic keyword",
+			"scope":[
+				"storage.type.built-in.primitive.cpp",
+				"storage.modifier.specifier.const.cpp",
+				"keyword.other.using.directive.cpp",
+				"storage.modifier.specifier.functional.post-parameters.const.cpp",
+				"constant.language.nullptr.cpp"
+			],
+			"settings": {
+				"foreground": "#d5a7f9",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "namespace",
+			"scope":[
+				"entity.name.scope-resolution.cpp"
+			],
+			"settings": {
+				"foreground": "#589293",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Class reference",
+			"scope":[
+				"entity.name.scope-resolution.function.definition.cpp"
+			],
+			"settings": {
+				"foreground": "#6d660f",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Function",
+			"scope":[
+				"entity.name.function.definition.cpp"
+			],
+			"settings": {
+				"foreground": "#c0b516",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"name": "Class word",
+			"scope":[
+				"storage.type.class.cpp",
+				"storage.type.namespace.directive.cpp"
+			],
+			"settings": {
+				"foreground": "#c0b516",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"name": "Class name",
+			"scope":[
+				"entity.name.type",
+				"entity.name.namespace.cpp"
+			],
+			"settings": {
+				"foreground": "#c0b516",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Member function",
+			"scope":[
+				"entity.name.function.call.cpp",
+				"entity.name.function.member.cpp",
+				"meta.block.cpp"
+			],
+			"settings": {
+				"foreground": "#faf6c3",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Number",
+			"scope":[
+				"constant.numeric.decimal.cpp"
+			],
+			"settings": {
+				"foreground": "#1abf6a",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Macro",
+			"scope":[
+				"entity.name.function.preprocessor.cpp"
+			],
+			"settings": {
+				"foreground": "#0782cf",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Template",
+			"scope":[
+				"storage.type.template.cpp",
+				"storage.type.template.argument.typename.cpp"
+			],
+			"settings": {
+				"foreground": "#1abf6a",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Reference",
+			"scope":[
+				"storage.modifier.reference.cpp"
+			],
+			"settings": {
+				"foreground": "#1abf6a",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "<>",
+			"scope":[
+				"punctuation.section.angle-brackets.begin.template.definition.cpp",
+				"punctuation.section.angle-brackets.end.template.definition.cpp"
+			],
+			"settings": {
+				"foreground": "#1abf6a",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "::",
+			"scope":[
+				"punctuation.separator.scope-resolution.function.definition.cpp",
+				"punctuation.separator.scope-resolution.cpp",
+				"punctuation.separator.scope-resolution.function.call.cpp",
+				"punctuation.separator.scope-resolution",
+				"punctuation.separator.dot-access.cpp"
+			],
+			"settings": {
+				"foreground": "#c94605",
+				"fontStyle": ""
+			}
+		},
+		
+	]
+}
