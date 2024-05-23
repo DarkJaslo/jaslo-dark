@@ -2,7 +2,7 @@
 	"name": "Jaslo Dark",
 	"colors": {
 		"editor.background": "#242424",
-		"editor.foreground": "#eeffff",
+		"editor.foreground": "#cdcdcd",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
@@ -21,7 +21,11 @@
 		{
 			"name": "Control Keyword",
 			"scope":[
-				"keyword.control"
+				"keyword.control",
+				"storage.type.template",
+				"storage.type.template.argument.typename",
+				"keyword.operator.delete",
+				"keyword.operator.new",
 			],
 			"settings": {
 				"foreground": "#d10f93",
@@ -32,21 +36,11 @@
 			"name": "Operator Keyword",
 			"scope":[
 				"keyword.operator",
-				"punctuation.separator.delimiter.comma.cpp"
+				"punctuation.separator.delimiter.comma"
 			],
 			"settings": {
 				"foreground": "#9960b6",
 				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Operator Keyword",
-			"scope":[
-				"keyword.operator.arithmetic.cpp"
-			],
-			"settings": {
-				"foreground": "#741545",
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -56,49 +50,58 @@
 				"variable.other.property"
 			],
 			"settings": {
-				"foreground": "#98c4f2",
+				"foreground": "#f9a8dc",
 				"fontStyle": ""
 			}
 		},
 		{
 			"name": "String",
 			"scope":[
-				"string.quoted.double"
+				"string.quoted.double",
+				"string.quoted.single",
+				"meta.preprocessor.include"
 			],
 			"settings": {
-				"foreground": "#ffee00",
-				"fontStyle": "italic bold"
-			}
-		},
-		{
-			"name": "True&False",
-			"scope":[
-				"constant.language.false",
-				"constant.language.true"
-			],
-			"settings": {
-				"foreground": "#ffee00",
-				"fontStyle": "bold"
+				"foreground": "#dcae16",
+				"fontStyle": "italic"
 			}
 		},
 		{
 			"name": "Semicolon",
 			"scope":[
-				"punctuation.terminator"
+				"punctuation.terminator",
+				"punctuation.separator.colon.case.default",
+				"punctuation.section.angle-brackets",
+				"keyword.operator.comparison",
+				"keyword.operator.arithmetic"
 			],
 			"settings": {
-				"foreground": "#3a22d5",
+				"foreground": "#faf6c3",
 				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "Basic keyword",
 			"scope":[
-				"storage.type.built-in.primitive.cpp",
-				"storage.modifier.specifier.const.cpp",
-				"keyword.other.using.directive.cpp",
-				"storage.modifier.specifier.functional.post-parameters.const.cpp",
-				"constant.language.nullptr.cpp"
+				"storage.type.built-in.primitive",
+				"storage.modifier.specifier.const",
+				"keyword.other.using.directive",
+				"storage.modifier.specifier.functional.post-parameters.const",
+				"constant.language.nullptr",
+				"storage.modifier.static",
+				"storage.type.modifier.access.control.public",
+				"storage.type.modifier.access.control.private",
+				"storage.type.modifier.access.control.protected",
+				"storage.modifier.specifier.functional.pre-parameters",
+				"storage.modifier.specifier.static",
+				"constant.language.false",
+				"constant.language.true",
+				"storage.type.struct",
+				"storage.type.enum",
+				"storage.modifier.inline",
+				"storage.type.modifier.access",
+				"storage.modifier.virtual",
+				"storage.type.namespace.definition"
 			],
 			"settings": {
 				"foreground": "#d5a7f9",
@@ -108,7 +111,7 @@
 		{
 			"name": "namespace",
 			"scope":[
-				"entity.name.scope-resolution.cpp"
+				"entity.name.scope-resolution"
 			],
 			"settings": {
 				"foreground": "#589293",
@@ -118,7 +121,7 @@
 		{
 			"name": "Class reference",
 			"scope":[
-				"entity.name.scope-resolution.function.definition.cpp"
+				"entity.name.scope-resolution.function.definition"
 			],
 			"settings": {
 				"foreground": "#6d660f",
@@ -126,43 +129,34 @@
 			}
 		},
 		{
-			"name": "Function",
+			"name": "Class/type",
 			"scope":[
-				"entity.name.function.definition.cpp"
-			],
-			"settings": {
-				"foreground": "#c0b516",
-				"fontStyle": "italic bold"
-			}
-		},
-		{
-			"name": "Class word",
-			"scope":[
-				"storage.type.class.cpp",
-				"storage.type.namespace.directive.cpp"
-			],
-			"settings": {
-				"foreground": "#c0b516",
-				"fontStyle": "italic bold"
-			}
-		},
-		{
-			"name": "Class name",
-			"scope":[
+				"entity.name.function.definition",
+				"storage.type.class",
+				"storage.type.namespace.directive",
 				"entity.name.type",
-				"entity.name.namespace.cpp"
+				"entity.name.namespace"
 			],
 			"settings": {
-				"foreground": "#c0b516",
-				"fontStyle": "bold"
+				"foreground": "#b35def",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"name": "function",
+			"scope":[
+				"entity.name.function.call",
+				"templateFunction"
+			],
+			"settings": {
+				"foreground": "#faf6c3",
+				"fontStyle": "italic bold"
 			}
 		},
 		{
 			"name": "Member function",
 			"scope":[
-				"entity.name.function.call.cpp",
-				"entity.name.function.member.cpp",
-				"meta.block.cpp"
+				"entity.name.function.member",
 			],
 			"settings": {
 				"foreground": "#faf6c3",
@@ -170,19 +164,12 @@
 			}
 		},
 		{
-			"name": "Number",
+			"name": "Macro and number",
 			"scope":[
-				"constant.numeric.decimal.cpp"
-			],
-			"settings": {
-				"foreground": "#1abf6a",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Macro",
-			"scope":[
-				"entity.name.function.preprocessor.cpp"
+				"entity.name.function.preprocessor",
+				"constant.numeric.decimal",
+				"variable.other.enummember",
+				"keyword.other.unit.suffix"
 			],
 			"settings": {
 				"foreground": "#0782cf",
@@ -190,48 +177,40 @@
 			}
 		},
 		{
-			"name": "Template",
-			"scope":[
-				"storage.type.template.cpp",
-				"storage.type.template.argument.typename.cpp"
-			],
-			"settings": {
-				"foreground": "#1abf6a",
-				"fontStyle": "bold"
-			}
-		},
-		{
 			"name": "Reference",
 			"scope":[
-				"storage.modifier.reference.cpp"
+				"storage.modifier.reference"
 			],
 			"settings": {
-				"foreground": "#1abf6a",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "<>",
-			"scope":[
-				"punctuation.section.angle-brackets.begin.template.definition.cpp",
-				"punctuation.section.angle-brackets.end.template.definition.cpp"
-			],
-			"settings": {
-				"foreground": "#1abf6a",
+				"foreground": "#ecd7fd",
 				"fontStyle": "italic"
 			}
 		},
 		{
 			"name": "::",
 			"scope":[
-				"punctuation.separator.scope-resolution.function.definition.cpp",
-				"punctuation.separator.scope-resolution.cpp",
-				"punctuation.separator.scope-resolution.function.call.cpp",
+				"punctuation.separator.scope-resolution.function.definition",
 				"punctuation.separator.scope-resolution",
-				"punctuation.separator.dot-access.cpp"
+				"punctuation.separator.scope-resolution.function.call",
+				"punctuation.separator.scope-resolution",
+				"punctuation.separator.dot-access",
+				"storage.modifier.pointer",
+				"punctuation.separator.pointer-access"
 			],
 			"settings": {
 				"foreground": "#c94605",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "text",
+			"scope":[
+				"text",
+				"source.ignore",
+				"source"
+			],
+			"settings": {
+				"foreground": "#cdcdcd",
 				"fontStyle": ""
 			}
 		},
