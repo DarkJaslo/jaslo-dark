@@ -26,6 +26,7 @@
 				"storage.type.template.argument.typename",
 				"keyword.operator.delete",
 				"keyword.operator.new",
+				"keyword.other.typedef"
 			],
 			"settings": {
 				"foreground": "#d10f93",
@@ -167,6 +168,7 @@
 			"name": "Macro and number",
 			"scope":[
 				"entity.name.function.preprocessor",
+				"meta.preprocessor.macro",
 				"constant.numeric.decimal",
 				"variable.other.enummember",
 				"keyword.other.unit.suffix"
@@ -195,7 +197,8 @@
 				"punctuation.separator.scope-resolution",
 				"punctuation.separator.dot-access",
 				"storage.modifier.pointer",
-				"punctuation.separator.pointer-access"
+				"punctuation.separator.pointer-access",
+				"punctuation.definition.function.pointer.dereference"
 			],
 			"settings": {
 				"foreground": "#c94605",
