@@ -6,4 +6,22 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Initial release
+- Initial release. Basic colours and features for most of C++.
+
+## [0.0.2] 2024-05-24
+
+### Added
+
+- Basic information on the README and a logo
+
+### Fixed
+
+- Nothing.
+
+### Changed
+
+- Nothing.
+
+### Removed
+
+- Nothing.
