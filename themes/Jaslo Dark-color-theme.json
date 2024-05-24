@@ -78,7 +78,8 @@
 				"punctuation.definition.string.template.begin", //js
 				"string.template", //js
 				"constant.other.color.rgb-value.hex",
-				"keyword.directive.preprocessor"
+				"keyword.directive.preprocessor",
+				"string"
 			],
 			"settings": {
 				"foreground": "#dcae16",
@@ -207,7 +208,8 @@
 				"support.constant.color.w3c-standard-color-name",
 				"support.other.token.lexer",
 				"constant.other",
-				"meta.parameter"
+				"meta.parameter",
+				"entity.name.other.preprocessor.macro"
 			],
 			"settings": {
 				"foreground": "#0782cf",
