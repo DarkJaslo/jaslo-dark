@@ -26,7 +26,8 @@
 				"storage.type.template.argument.typename",
 				"keyword.operator.delete",
 				"keyword.operator.new",
-				"keyword.other.typedef"
+				"keyword.other.typedef",
+				"keyword.other"
 			],
 			"settings": {
 				"foreground": "#d10f93",
@@ -37,7 +38,8 @@
 			"name": "Operator Keyword",
 			"scope":[
 				"keyword.operator",
-				"punctuation.separator.delimiter.comma"
+				"punctuation.separator.delimiter.comma",
+				"punctuation.separator.comma"
 			],
 			"settings": {
 				"foreground": "#9960b6",
@@ -48,7 +50,19 @@
 			"name": "Variable",
 			"scope":[
 				"variable",
-				"variable.other.property"
+				"variable.other.property",
+				"support.variable.property",
+				"meta.object-literal.key",
+				"entity.other.attribute-name",
+				"support.type.property-name",
+				"support.type.vendored.property-name",
+				"source.python",
+				"support.function.parser",
+				"source.antlr",
+				"meta.class.body",
+				"source.haskell",
+				"source.glsl"
+				//"meta.object-literal.value",
 			],
 			"settings": {
 				"foreground": "#f9a8dc",
@@ -60,7 +74,11 @@
 			"scope":[
 				"string.quoted.double",
 				"string.quoted.single",
-				"meta.preprocessor.include"
+				"meta.preprocessor.include",
+				"punctuation.definition.string.template.begin", //js
+				"string.template", //js
+				"constant.other.color.rgb-value.hex",
+				"keyword.directive.preprocessor"
 			],
 			"settings": {
 				"foreground": "#dcae16",
@@ -103,7 +121,13 @@
 				"storage.type.modifier.access",
 				"storage.modifier.virtual",
 				"storage.type.namespace.definition",
-				"storage.modifier"
+				"storage.modifier",
+				"storage.type",
+				"support.type.object.module",
+				"support.type.primitive",
+				"entity.name.tag",
+				"support.constant.property-value",
+				"support.type"
 			],
 			"settings": {
 				"foreground": "#d5a7f9",
@@ -121,23 +145,16 @@
 			}
 		},
 		{
-			"name": "Class reference",
-			"scope":[
-				"entity.name.scope-resolution.function.definition"
-			],
-			"settings": {
-				"foreground": "#6d660f",
-				"fontStyle": "bold"
-			}
-		},
-		{
 			"name": "Class/type",
 			"scope":[
 				"entity.name.function.definition",
 				"storage.type.class",
 				"storage.type.namespace.directive",
 				"entity.name.type",
-				"entity.name.namespace"
+				"entity.name.namespace",
+				"entity.other.attribute-name.class",
+				"entity.name.tag.css",
+				"entity.other.inherited-class"
 			],
 			"settings": {
 				"foreground": "#b35def",
@@ -149,7 +166,8 @@
 			"scope":[
 				"entity.name.function.call",
 				"templateFunction",
-				"entity.name.function"
+				"entity.name.function",
+				"support.constant.font-name"
 			],
 			"settings": {
 				"foreground": "#faf6c3",
@@ -161,6 +179,11 @@
 			"scope":[
 				"entity.name.function.member",
 				"punctuation.definition.variable",
+				"support.function.url",
+				"support.function.misc",
+				"meta.function-call.generic",
+				"constant.other.symbol.prolog",
+				"support.function"
 			],
 			"settings": {
 				"foreground": "#faf6c3",
@@ -176,7 +199,15 @@
 				"variable.other.enummember",
 				"keyword.other.unit.suffix",
 				"support.function.target.SUFFIXES",
-				"entity.other.attribute-name.pragma"
+				"entity.other.attribute-name.pragma",
+				"constant.language.boolean",
+				"constant.language.null",
+				"constant.language",
+				"constant.numeric",
+				"support.constant.color.w3c-standard-color-name",
+				"support.other.token.lexer",
+				"constant.other",
+				"meta.parameter"
 			],
 			"settings": {
 				"foreground": "#0782cf",
@@ -203,7 +234,13 @@
 				"punctuation.separator.dot-access",
 				"storage.modifier.pointer",
 				"punctuation.separator.pointer-access",
-				"punctuation.definition.function.pointer.dereference"
+				"punctuation.definition.function.pointer.dereference",
+				"punctuation.accessor",
+				"punctuation.separator",
+				"meta.action.lexer",
+				"meta.rule.lexer",
+				"meta.rule.parser",
+				"entity.other.pointer"
 			],
 			"settings": {
 				"foreground": "#c94605",
