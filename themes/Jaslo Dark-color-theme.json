@@ -168,7 +168,7 @@
 				"entity.name.function.call",
 				"templateFunction",
 				"entity.name.function",
-				"support.constant.font-name"
+				"support.constant.font-name",
 			],
 			"settings": {
 				"foreground": "#faf6c3",
@@ -184,7 +184,8 @@
 				"support.function.misc",
 				"meta.function-call.generic",
 				"constant.other.symbol.prolog",
-				"support.function"
+				"support.function",
+				"meta.block"
 			],
 			"settings": {
 				"foreground": "#faf6c3",
