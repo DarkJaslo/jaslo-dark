@@ -17,7 +17,7 @@ If you're lucky, some other languages are already supported by the current setti
 
 # Some screenshots
 
-In advance: some of these may be a bit outdated.
+In advance: some of these may be a bit outdated. For the OCD people, yes, they have different sizes and all.
 
 <img src="https://raw.githubusercontent.com/DarkJaslo/jaslo-dark/master/img/c1.PNG" alt="C example 1" title = "C example 1" width="99%" height="99%">
 <img src="https://raw.githubusercontent.com/DarkJaslo/jaslo-dark/master/img/cpp1.PNG" alt="C++ example 1" title = "C++ example 1" width="99%" height="99%">
