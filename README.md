@@ -1,12 +1,42 @@
 # jaslo-dark
 
+<img src="https://raw.githubusercontent.com/DarkJaslo/jaslo-dark/master/img/cpp2.PNG" alt="Intro image" title = "Intro" width="99%" height="99%">
+
 A Visual Studio Code theme with my personal preferences. It is intended to be progressively upgraded whenever I find both new stuff to add and time to do so.
 
+#### (Intentionally) supports:
+- C, C++
+- Java
+- Python
+- JavaScript and TypeScript
+- HTML & CSS
+- Haskell
+- Prolog
+ 
+If you're lucky, some other languages are already supported by the current settings, or at least a part of them.
+
+# Some screenshots
+
+In advance: some of these may be a bit outdated.
+
+<img src="https://raw.githubusercontent.com/DarkJaslo/jaslo-dark/master/img/c1.PNG" alt="C example 1" title = "C example 1" width="99%" height="99%">
+<img src="https://raw.githubusercontent.com/DarkJaslo/jaslo-dark/master/img/cpp1.PNG" alt="C++ example 1" title = "C++ example 1" width="99%" height="99%">
+<img src="https://raw.githubusercontent.com/DarkJaslo/jaslo-dark/master/img/html1.PNG" alt="HTML example 1" title = "HTML example 1" width="99%" height="99%">
+<img src="https://raw.githubusercontent.com/DarkJaslo/jaslo-dark/master/img/js1.PNG" alt="JavaScript example 1" title = "JavaScript example 1" width="99%" height="99%">
+<img src="https://raw.githubusercontent.com/DarkJaslo/jaslo-dark/master/img/py1.PNG" alt="Python example 1" title = "Python example 1" width="99%" height="99%">
+
+I'm being specific here, but I'm amazed at how much the colours change between different screens. It almost turns into a completely different theme.
+
+# TODO
+- Better colours for the _app_, not just the text.
+- Something with (), {}, []... to use my own colours. 
+
+### Re-releasing/updating
 This last part is mainly for me:
 
 1. Open vscode in the repo, hit Run>Start Debugging
 2. On the other window, ctrl+shift+P>inspect editor tokens and scopes to see items
-3. Do
+3. To update:
 ```sh
 vsce package
 vsce publish
