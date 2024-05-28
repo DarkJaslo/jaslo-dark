@@ -2,6 +2,13 @@
 
 All notable changes to the "jaslo-dark" extension will be documented in this file.
 
+## [1.0.0] 2024-05-28
+
+### Added
+
+- Screenshots on the README
+- More info in general
+
 ## [0.0.4] 2024-05-25
 
 ### Added
