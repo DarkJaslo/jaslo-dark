@@ -136,16 +136,6 @@
 			}
 		},
 		{
-			"name": "namespace",
-			"scope":[
-				"entity.name.scope-resolution"
-			],
-			"settings": {
-				"foreground": "#589293",
-				"fontStyle": "bold"
-			}
-		},
-		{
 			"name": "Class/type",
 			"scope":[
 				"entity.name.function.definition",
@@ -153,6 +143,7 @@
 				"storage.type.namespace.directive",
 				"entity.name.type",
 				"entity.name.namespace",
+				"entity.name.scope-resolution.cpp",
 				"entity.other.attribute-name.class",
 				"entity.name.tag.css",
 				"entity.other.inherited-class"

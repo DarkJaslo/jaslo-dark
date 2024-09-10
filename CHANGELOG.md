@@ -2,6 +2,12 @@
 
 All notable changes to the "jaslo-dark" extension will be documented in this file.
 
+## [1.0.2] 2024-09-11
+
+### Added
+
+- Colour for static calls to a class in C++ (i.e. MyClass::StaticFunction())
+
 ## [1.0.1] 2024-05-29
 
 ### Fixed
