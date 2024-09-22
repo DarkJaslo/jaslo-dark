@@ -1,8 +1,59 @@
 {
 	"name": "Jaslo Dark",
 	"colors": {
-		"editor.background": "#242424",
-		"editor.foreground": "#cdcdcd",
+		// Reference: https://code.visualstudio.com/api/references/theme-color
+
+		//"editor.background": "#242424",
+		"editor.background": "#1f1e1e",
+		//"editor.foreground": "#cdcdcd", // unused afaik
+		"editorLineNumber.foreground": "#523563",
+		"editorLineNumber.activeForeground": "#ae32cd",
+		//"editorLineNumber.dimmedForeground":"#ff0000", // unused afaik
+		//"editorCursor.background":"#ff0000", // unused afaik
+		"editorCursor.foreground":"#c79cd7",
+
+		//"editor.placeholder.foreground":"#ff0000", no idea
+
+		"editor.selectionBackground":"#402b4c",
+		"editor.inactiveSelectionBackground":"#402b4c8f",
+		"editor.selectionHighlightBackground":"#7a5d8494",
+
+		//"editor.findMatchBackground":"#934f57",
+		//"editor.findMatchHighlightBackground":"#5a505c",
+
+		"editor.hoverHighlightBackground":"#402b4c8f",
+		"editor.lineHighlightBackground":"#2a2828",
+
+		"editorBracketMatch.background":"#402b4c",
+		"editorBracketMatch.border":"#faf6c3",
+
+		"editorBracketHighlight.foreground1":"#faf6c3",
+		"editorBracketHighlight.foreground2":"#9960b6",
+		"editorBracketHighlight.foreground3":"#d10f93",
+		"editorBracketHighlight.foreground4":"#9e6ac6",
+		"editorBracketHighlight.foreground5":"#e175bb",
+		"editorBracketHighlight.foreground6":"#d8d2d6",
+
+		"editorUnnecessaryCode.opacity":"#0000009f",
+
+		//"editorWidget.foreground":"#9960b6",
+		"editorWidget.background":"#1f1e1e",
+		"editorWidget.border":"#121111",
+		"editorWidget.resizeBorder":"#9960b6",
+
+		"editorSuggestWidget.background":"#1f1e1e",
+		//"editorSuggestWidget.foreground":"#ff0000",
+		"editorSuggestWidget.focusHighlightForeground":"#9960b6",
+		"editorSuggestWidget.highlightForeground":"#9960b6",
+		"editorSuggestWidget.selectedBackground":"#402b4c",
+
+		"panelTitle.activeBorder":"#9960b6",
+		"panelTitle.activeForeground":"#9960b6",
+		"panelInput.border":"#9960b6",
+		"statusBar.background":"#402b4c",
+		"statusBarItem.activeBackground":"#402b4c",
+
+
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},

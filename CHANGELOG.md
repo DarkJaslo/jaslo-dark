@@ -2,6 +2,12 @@
 
 All notable changes to the "jaslo-dark" extension will be documented in this file.
 
+## [1.0.3] 2024-09-22
+
+### Added
+
+- Colour for many untouched editor features, such as text highlighting, brace coloring and overall color consistency.
+
 ## [1.0.2] 2024-09-11
 
 ### Added
