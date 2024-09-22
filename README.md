@@ -28,9 +28,6 @@ In advance: some of these may be a bit outdated. For the OCD people, yes, they h
 #### Some HTML
 <img src="https://raw.githubusercontent.com/DarkJaslo/jaslo-dark/master/img/html1.PNG" alt="HTML example 1" title = "HTML example 1" width="75%" height="99%">
 
-#### JavaScript
-<img src="https://raw.githubusercontent.com/DarkJaslo/jaslo-dark/master/img/js1.PNG" alt="JavaScript example 1" title = "JavaScript example 1" width="99%" height="99%">
-
 #### Python
 <img src="https://raw.githubusercontent.com/DarkJaslo/jaslo-dark/master/img/py1.PNG" alt="Python example 1" title = "Python example 1" width="80%" height="99%">
 
