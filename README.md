@@ -35,7 +35,6 @@ I'm being specific here, but I'm amazed at how much the colours change between d
 
 # TODO
 - Better colours for the _app_, not just the text.
-- Something with (), {}, []... to use my own colours. 
 
 ### Re-releasing/updating
 This last part is mainly for me:
