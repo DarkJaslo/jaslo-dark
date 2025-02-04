@@ -2,6 +2,13 @@
 
 All notable changes to the "jaslo-dark" extension will be documented in this file.
 
+## [1.0.4] 2025-02-04
+
+### Added
+
+- Python decorator support
+
+
 ## [1.0.3] 2024-09-22
 
 ### Added

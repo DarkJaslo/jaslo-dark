@@ -78,7 +78,9 @@
 				"keyword.operator.delete",
 				"keyword.operator.new",
 				"keyword.other.typedef",
-				"keyword.other"
+				"keyword.other",
+				"punctuation.definition.decorator",
+				"entity.name.function.decorator",
 			],
 			"settings": {
 				"foreground": "#d10f93",
@@ -144,7 +146,7 @@
 				"punctuation.separator.colon.case.default",
 				"punctuation.section.angle-brackets",
 				"keyword.operator.comparison",
-				"keyword.operator.arithmetic"
+				"keyword.operator.arithmetic",
 			],
 			"settings": {
 				"foreground": "#faf6c3",
@@ -252,7 +254,7 @@
 				"support.other.token.lexer",
 				"constant.other",
 				"meta.parameter",
-				"entity.name.other.preprocessor.macro"
+				"entity.name.other.preprocessor.macro",
 			],
 			"settings": {
 				"foreground": "#0782cf",
