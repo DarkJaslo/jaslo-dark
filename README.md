@@ -12,6 +12,7 @@ A Visual Studio Code theme with my personal preferences. It is intended to be pr
 - HTML & CSS
 - Haskell
 - Prolog
+- SQL
  
 If you're lucky, some other languages are already supported by the current settings, or at least a part of them. If it helps understand some things, this started as a C/C++ extension.
 
