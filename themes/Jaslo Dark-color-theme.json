@@ -92,7 +92,7 @@
 			"scope":[
 				"keyword.operator",
 				"punctuation.separator.delimiter.comma",
-				"punctuation.separator.comma"
+				"punctuation.separator.comma",
 			],
 			"settings": {
 				"foreground": "#9960b6",
@@ -114,7 +114,11 @@
 				"source.antlr",
 				"meta.class.body",
 				"source.haskell",
-				"source.glsl"
+				"source.glsl",
+				"source.sql",
+				// LaTeX
+				"meta.function.environment.general.latex",
+				"markup.italic",
 				//"meta.object-literal.value",
 			],
 			"settings": {
@@ -132,7 +136,8 @@
 				"string.template", //js
 				"constant.other.color.rgb-value.hex",
 				"keyword.directive.preprocessor",
-				"string"
+				"string",
+				//"text.tex.latex", // LaTeX
 			],
 			"settings": {
 				"foreground": "#dcae16",
@@ -181,7 +186,8 @@
 				"support.type.primitive",
 				"entity.name.tag",
 				"support.constant.property-value",
-				"support.type"
+				"support.type",
+				"entity.other.attribute-name.id", // CSS
 			],
 			"settings": {
 				"foreground": "#d5a7f9",
@@ -199,7 +205,10 @@
 				"entity.name.scope-resolution.cpp",
 				"entity.other.attribute-name.class",
 				"entity.name.tag.css",
-				"entity.other.inherited-class"
+				"entity.other.inherited-class",
+				"constant.other.database-name", // SQL
+				"constant.other.table-name", // SQL
+				"support.class", // LaTeX
 			],
 			"settings": {
 				"foreground": "#b35def",

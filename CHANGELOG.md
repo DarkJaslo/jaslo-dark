@@ -2,6 +2,17 @@
 
 All notable changes to the "jaslo-dark" extension will be documented in this file.
 
+## [1.0.5] 2025-02-05
+
+### Added
+
+- General SQL support
+
+### Fixed
+
+- CSS targeting by id
+- LaTeX somewhat
+
 ## [1.0.4] 2025-02-04
 
 ### Added
