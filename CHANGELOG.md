@@ -2,6 +2,12 @@
 
 All notable changes to the "jaslo-dark" extension will be documented in this file.
 
+## [1.0.6] 2025-05-01
+
+### Fixed
+
+- Colour for the sixth scope's brackets (it was white before)
+
 ## [1.0.5] 2025-02-05
 
 ### Added
